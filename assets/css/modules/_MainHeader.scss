@@ -1,0 +1,56 @@
+.header_wrap {
+    background-color: var(--ColorPrimary);
+    padding-block: 1rem;
+
+    .header_inner-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1rem;
+
+        picture {
+            margin-right: auto;
+            
+            img {
+                width: auto;
+                height: 2.5rem;
+            }
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            a {
+                padding: .5rem 1rem;
+                color: var(--SecondaryColor);
+                text-decoration: none;
+                display: inline-block;
+            }
+
+            a:hover {
+                color: color-mix(in srgb, var(--SecondaryColor), black 30%);
+                transition: all .3s ease-in-out;
+            }
+        }
+
+        .btn_header-primary:hover {
+            background-color: color-mix(in srgb, var(--ThirdColor), black 25%);
+            transition: all .3s ease-in-out;
+        }
+
+        .nav_button {
+            background-color: transparent;
+            color: white;
+            font-size: 2rem;
+        }
+
+        .nav_button:active {
+            background-color: color-mix(in srgb, var(--ThirdColor), black 40%);
+            transition: all .3s ease-in-out;
+        }
+
+    }
+}
