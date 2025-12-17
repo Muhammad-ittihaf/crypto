@@ -1,0 +1,24 @@
+
+@media (min-width: 887px) {
+     .nav_button {
+        display: none;
+    }
+}
+
+
+@media (max-width: 886.98px) {
+     .header_wrap {
+        .header_inner-wrap {
+            
+            ul {
+                display: none;
+                order: 4;
+                flex: 100%;
+            }
+
+            li {
+                flex: 100%;
+            }
+        }
+     }
+}
